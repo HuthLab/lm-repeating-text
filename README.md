@@ -2,7 +2,7 @@
 
 This repository contains the code and data for our [CoNLL 2023 paper](https://aclanthology.org/2023.conll-1.5/). We show that humans and LMs behave differently in their memorization ability, and we add a learned recency bias to the LMs to make them more similar to humans.
 
-The notebook [`Behavioral analyses.ipynb`](Behavioral analyses.ipynb) contains code to load & visualize the behavioral data, vanilla LM performance, and optimized (with recency bias) performance.
+The notebook [`Behavioral analyses.ipynb`](Behavioral%20analyses.ipynb) contains code to load & visualize the behavioral data, vanilla LM performance, and optimized (with recency bias) performance.
 
 The script [`attn_optim.py`](attn_optim.py) contains the code to optimize an attention bias to match behavioral data. It saves metrics (e.g. corr. with behavioral data, validation loss) during & after training, as well as the learned parameters. You will need a GPT-2 with word-level tokenization, which you can [download here][box-gpt2]. (This takes ~12 minutes to run on a GTX 1080, without much optimization.)
 
