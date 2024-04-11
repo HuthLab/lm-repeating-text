@@ -10,6 +10,8 @@ The attention biasing is implemented with a PyTorch forward hook.
 
 [`attn_optim_combos.sh`](attn_optim_combos.sh) will run the optimization script multiple times (random initializations) for every layer and stimulus. (This took several hours on our hardware.)
 
+[`finetune_gpt2_wordlevel.py`](finetune_gpt2_wordlevel.py) is a script that converts GPT-2 from BPE to word-level (whitespace) tokenization, as was used in this paper.
+
 ## License
 
 Code is licensed under the MIT license. Data is licensed under CC Attribution-NonCommercial ([CC-NC](https://creativecommons.org/licenses/by-nc/4.0/)).
