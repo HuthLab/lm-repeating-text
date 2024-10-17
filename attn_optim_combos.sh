@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -eux
 
 # Do layer 5 first, since Figs. 2-4 use that layer
 # (layers are 0-indexed here)
